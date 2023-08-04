@@ -1,0 +1,62 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.kim {
+    padding: 50px 0;
+    text-align: center;
+     border: 1px solid; 
+     background-color: rgba(80, 67, 67, 0.616); 
+    border-radius: 10px;
+} 
+
+.masofa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.masofa input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 218);
+    outline: none;
+}
+
+::placeholder {
+    color: black;
+    font-size: 15px;
+}
+
+.masofa button {
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(40, 41, 43);
+    color: aliceblue;
+    font-size: 13px;
+    cursor: pointer;
+}
+.card__wrap {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.card {
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    width: 20%;
+    border-radius: 10px;
+}
+.card img {
+    width: 140px;
+}
